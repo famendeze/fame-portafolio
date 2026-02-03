@@ -1,0 +1,655 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fernando Mendez | Portfolio</title>
+  <meta name="description" content="Mechanical Engineering | Fluids/CFD | Simulation | Data" />
+  <meta name="theme-color" content="#0b0f19" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- icons -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-dot"></span>
+        <span class="brand-name">Fernando Mendez</span>
+      </a>
+
+      <!-- css-only mobile menu -->
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+      <label class="nav-toggle-btn" for="nav-toggle" aria-label="toggle navigation">
+        <i class="bx bx-menu"></i>
+      </label>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn--ghost" href="files/resume.pdf" target="_blank" rel="noreferrer">
+        View Resume
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- hero -->
+    <section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">Mechanical Engineer · Manufacturing · Testing · Data & Analysis</p>
+
+      <h1>Mechanical Engineer Building Practical Solutions Across Simulation, Test, Manufacturing, and Data.</h1>
+
+      <p class="lead">
+        M.S. Mechanical Engineering (Expected Fall 2026) with experience spanning research, industrial internships,
+        and hands-on manufacturing support. I enjoy solving problems end-to-end—from defining the test plan, to analyzing
+        results, to improving processes and documentation.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn--primary" href="#contact">Contact</a>
+        <a class="btn btn--soft" href="#projects">View Work</a>
+      </div>
+
+      <div class="social">
+        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/mefernando" target="_blank" rel="noreferrer">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a aria-label="Email" href="mailto:fmendez@nmsu.edu">
+          <i class="bx bx-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <img class="avatar" src="mainpic.png" alt="Fernando Mendez Portrait" />
+      <div class="hero-card-body">
+        <p class="hero-name">Fernando Mendez</p>
+        <p class="hero-sub">Mechanical Engineering (M.S.) · Research Assistant</p>
+        <div class="chips">
+			<span class="chip">CFD (Ansys Fluent)</span>
+          <span class="chip">Test & Validation</span>
+          <span class="chip">Process Improvement</span>
+          <span class="chip">Python / MATLAB</span>
+          <span class="chip">CAD & GD&T</span>
+		  <span class="chip"> Semiconductor Clean-room</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- about -->
+    <section class="section" id="about">
+  <div class="container">
+    <div class="section-head">
+      <h2>About</h2>
+      <p>Mechanical engineer with cross-functional experience in research, testing, manufacturing, and analytics.</p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>How I Work</h3>
+        <p>
+          I like engineering work that connects the lab to the real world: defining requirements, building or improving
+          processes, running tests, and turning results into clear decisions. My strengths are structured problem solving,
+          fast iteration, and clean documentation.
+        </p>
+
+        <div class="chips">
+		  <span class="chip">CFD</span>
+          <span class="chip">Test Plans</span>
+          <span class="chip">DoE</span>
+          <span class="chip">Root Cause</span>
+          <span class="chip">Dashboards</span>
+		  <span class="chip">Python/MATLAB</span>
+
+		  
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Education</h3>
+        <ul class="list">
+          <li><strong>M.S. Mechanical Engineering</strong> — New Mexico State University (Expected Fall 2026), GPA: 3.90/4.0</li>
+          <li><strong>B.S. Aerospace Engineering</strong> — Graduated with Honors (Fall 2024), GPA: 3.95/4.0</li>
+          <li><strong>B.S. Mechanical Engineering</strong> — Graduated with Honors, Minor in Physics (Fall 2024), GPA: 3.95/4.0</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head">
+          <h2>Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card">
+              <div class="card-top card-top--with-btn">
+				<h3>Graduate Research Assistant</h3>
+				<button
+					class="btn btn--mini"
+					type="button"
+					data-gallery="research"
+				>
+					📸 Photos
+				</button>
+				</div>
+				<p class="muted">NMSU · Jan 2023 — Present</p>
+
+              <ul class="bullets">
+                <li>Built CFD models in Ansys Fluent and Rocky DEM to study particle transport and dissolution in USP-II vessels
+				</li>
+                <li>Automated Ansys Fluent and Rocky data analysis with python (Pandas, NumPy, Matplotlib) and automated 
+					comparative plotting.</li>
+                <li>Performed simulations across coupling modes and contact models, and implemented UDF-based body-force models.</li>
+				<li>
+					Presented results in recurring technical reviews with Eli Lilly, shaping next-step parameter sweeps and acceptance criteria.
+				</li>
+				<li>
+					Characterized materials (stiffness/strength/flexibility) for a soft-robotic intestine, and streamlined micro-villi fabrication (~75% faster).
+				</li>
+				<li>
+					Automated image capture and tensile-test data handling in python to reduce manual work and improve data quality.
+				</li>
+              </ul>
+              <div class="chips">
+                <span class="chip">Ansys Fluent</span>
+                <span class="chip">Rocky</span>
+                <span class="chip">UDF</span>
+				<span class="chip">Python</span>
+                <span class="chip">Problem Solving</span>
+				<span class="chip">Data Analysis</span>
+				<span class="chip">Research</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card">
+				<div class="card-top card-top--with-btn">
+					<h3>Service Engineering Intern</h3>
+					<button
+						class="btn btn--mini"
+						type="button"
+						data-gallery="service"
+					>
+						📸 Photos
+					</button>
+					</div>
+					<p class="muted">Cummins · May 2024 — Aug 2024</p>
+
+              <ul class="bullets">
+                <li>Audited failure-code claims and validated accuracy using data analysis and visualization.</li>
+                <li>Led engine-replacement evaluations; identified multi-million-dollar cost-saving opportunities.</li>
+                <li>Built a Power BI dashboard (with Python integration) to track and visualize fault codes.</li>
+				<li>Researched full powertrain integration to improve diagnostics and performance.</li>
+				<li>Investigated $15k+ high-value claims to identify root causes and refine processes.</li>
+              </ul>
+              <div class="chips">
+				<span class="chip">Failure Analysis & Root Cause (RCA)</span>
+                <span class="chip">System-Level Testing & Validation</span>
+                <span class="chip">Mechanical & Electrical Interface Understanding</span>
+				<span class="chip">Field Issue Reproduction & Verification</span>
+                <span class="chip">Python for Automation & Reporting</span>
+                <span class="chip">Data Analysis & Visualization</span>
+                <span class="chip">Power BI Dashboards</span>
+              </div>
+            </div>
+          </article>
+		  <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card">
+				<div class="card-top card-top--with-btn">
+					<h3>Test Engineer Co-op</h3>
+					<button
+						class="btn btn--mini"
+						type="button"
+						data-gallery="test"
+					>
+						📸 Photos
+					</button>
+					</div>
+					<p class="muted">Cummins · May 2023 — Dec 2023</p>
+
+              <ul class="bullets">
+                <li>Supervised testing of diesel engines and aftertreatment systems to meet standards/specs.</li>
+                <li>Analyzed test data to identify trends and performance improvements.</li>
+                <li>Developed and upgraded MATLAB GUIs; added algorithms that cut analysis time by 15%.</li>
+				<li>Ran tests recording flow, temperature, pressure, and difference of pressure to assess engine performance.</li>
+				<li>Performed root-cause analysis on anomalies and implemented corrective actions.</li>
+				<li>Operated/maintained dynamometers and emissions measurement devices for quality data</li>
+              </ul>
+              <div class="chips">
+                <span class="chip">Test Planning & Execution</span>
+                <span class="chip">Data Acquisition (DAQ)</span>
+                <span class="chip">Repeatability & Reproducibility (R&R)</span>
+				<span class="chip">Test Data Analysis & VisualizationTest Data Analysis & Visualization</span>
+                <span class="chip">MATLAB/Python for Data Processing</span>
+                <span class="chip">Trend & Statistical Analysis</span>
+				<span class="chip">Lab Equipment Setup & Configuration</span>
+				<span class="chip">Root Cause Analysis</span>
+				<span class="chip">Continuous Improvement</span>
+
+              </div>
+            </div>
+          </article>
+		  <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card">
+				<div class="card-top card-top--with-btn">
+					<h3>Manufacturing and Process Engineer Co-op</h3>
+					</div>
+					<p class="muted">Safran Aerospace · Jan 2022 – Jul 2022</p>
+
+              <ul class="bullets">
+                <li>Built Excel and Python tool to improve communication between engineering and production; 
+					automated task prioritization/notifications (Pandas, NumPy)</li>
+                <li>Supported sheet metal fabrication and CNC machining operations; partnered with operators to 
+					troubleshoot build issues and reduce rework.</li>
+                <li>Created an inventory tracker to prevent tool loss; trained operators on effective use.</li>
+				<li>Supported manufacturing and quality engineering across assembly, testing, and final inspection.</li>
+				<li>Used CatiaV5 for 2D part checks and template creation, reducing rework/errors.</li>
+				<li>Operated/maintained dynamometers and emissions measurement devices for quality data</li>
+              </ul>
+              <div class="chips">
+                <span class="chip">Manufacturing Process Support</span>
+                <span class="chip">Process Improvement & Standardization</span>
+                <span class="chip">Continuous Improvement</span>
+				<span class="chip">Python for Manufacturing Analytics</span>
+                <span class="chip">Data Visualization</span>
+                <span class="chip">Task Prioritization & Workflow Automation</span>
+				<span class="chip">CATIA V5 (2D Drafting & Templates)</span>
+                <span class="chip">Fixture & Tooling Support</span>
+                <span class="chip">Manufacturing Drawings Review</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- skills -->
+<section class="section" id="skills">
+  <div class="container">
+    <div class="section-head">
+      <h2>Skills</h2>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>Simulation & Analysis</h3>
+        <ul class="list">
+          <li>Ansys Fluent, CFX</li>
+          <li>Rocky DEM (CFD-DEM)</li>
+          <li>Tecplot</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Programming & Data</h3>
+        <ul class="list">
+          <li>Python (Pandas, NumPy, Matplotlib)</li>
+          <li>Matlab</li>
+          <li>Excel VBA</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Testing & Validation</h3>
+        <ul class="list">
+          <li>Test Planning & Execution</li>
+          <li>Data Acquisition & Sensor </li>
+          <li>Trend Analysis & Reporting</li>
+          <li>Root Cause Analysis</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Manufacturing & Process</h3>
+        <ul class="list">
+          <li>Process Improvement & Standardization</li>
+          <li>Production & Shop-floor Support</li>
+          <li>Quality Engineering Support</li>
+          <li>Work Instructions & Documentation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- semiconductor -->
+<section class="section" id="semiconductor">
+  <div class="container">
+    <div class="section-head">
+      <h2>Semiconductor Interest</h2>
+		<button class="btn btn--gallery" type="button" data-gallery="semiconductor">
+		See Photos
+		</button>
+      <p>Why I’m excited about semiconductor manufacturing, hardware, and process technology.</p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>Focus Areas</h3>
+        <p>
+          I’m actively pursuing opportunities in the semiconductor industry—especially roles in equipment,
+          process support, manufacturing, and test engineering. I enjoy hands-on problem solving, data-driven
+          improvement, and learning the fundamentals behind devices and materials.
+        </p>
+        <div class="chips">
+		<span class="chip">Fluids Engineering</span>
+		<span class="chip">Thermal Engineering</span>
+		<span class="chip">Equipment / Process Support</span>
+		<span class="chip">Equipment Engineering</span>
+		<span class="chip">Process Engineering</span>
+		<span class="chip">Test Engineering</span>
+		<span class="chip">Manufacturing</span>
+		<span class="chip">Metrology</span>
+		<span class="chip">Yield Improvement</span>
+		<span class="chip">Reliability</span>
+		<span class="chip">Failure Analysis / RCA</span>
+		<span class="chip">Data & Automation</span>
+		<span class="chip">Field Engineering</span>
+</div>
+
+      </div>
+
+      <div class="card">
+        <h3>Hands-On Exposure & Continuous Learning</h3>
+        <ul class="bullets">
+          <li>
+            <strong>North Texas Semiconductor Institute Bootcamp (UT Dallas):</strong>
+            ISO-5 cleanroom immersion (spin coat, UV lithography, wet/dry etch), SEM/AFM inspection, and IC package
+            decapsulation for die-level analysis.
+          </li>
+          <li>
+            <strong>Coursework (Electrical Engineering):</strong> VLSI — digital IC design fundamentals and CMOS logic concepts.
+          </li>
+          <li>
+            <strong>Coursework (Physics):</strong> Modern Materials — structure–property relationships and materials concepts relevant to advanced manufacturing.
+          </li>
+          <li>
+            <strong>Mindset:</strong> I’m always looking to learn more through labs, coursework, and hands-on projects.
+          </li>
+        </ul>
+        <div class="chips">
+          <span class="chip">Cleanroom</span>
+          <span class="chip">Lithography</span>
+          <span class="chip">SEM / AFM</span>
+          <span class="chip">Decapsulation</span>
+          <span class="chip">VLSI</span>
+          <span class="chip">Modern Materials</span>
+          <span class="chip">CMOS</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+    <!-- contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-card">
+          <div>
+            <h2>Let’s talk</h2>
+            <p class="muted">
+              Email me at <a href="mailto:fmendez@nmsu.edu">fmendez@nmsu.edu</a>
+              </p>
+          </div>
+
+          <div class="contact-actions">
+            <a class="btn btn--primary" href="mailto:fmendez@nmsu.edu">email me</a>
+            <a class="btn btn--soft" href="https://www.linkedin.com/in/mefernando" target="_blank" rel="noreferrer">
+              linkedin
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Fernando Mendez</p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- tiny optional js to update year (you can remove if you want) -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <!-- semiconductor gallery modal -->
+<div class="modal" id="semi-modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close="true"></div>
+
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-label="semiconductor photo gallery">
+    <div class="modal-top">
+      <h3>Semiconductor Photos</h3>
+      <button class="icon-btn" type="button" id="close-semi-gallery" aria-label="close">
+        &times;
+      </button>
+    </div>
+
+    <div class="carousel" id="semi-carousel">
+      <button class="carousel-btn" type="button" id="semi-prev" aria-label="previous photo">‹</button>
+
+      <div class="carousel-viewport" id="semi-viewport">
+        <div class="carousel-track" id="semi-track"></div>
+      </div>
+
+      <button class="carousel-btn" type="button" id="semi-next" aria-label="next photo">›</button>
+    </div>
+
+    <p class="modal-caption" id="semi-caption"></p>
+    <div class="carousel-dots" id="semi-dots"></div>
+  </div>
+</div>
+<script>
+  // ====== galleries (add photos per category) ======
+  const galleries = {
+    semiconductor: [
+      { src: "img/semiconductor/1.jpg", alt: "Cleanroom photo with wafer sample", caption: "Cleanroom-ready: Working with wafer samples and following fab safety protocols." },
+      { src: "img/semiconductor/2.jpg", alt: "Cleanroom wet bench / hotplate station", caption: "Process lab workflow: Chemical handling, hotplate steps, and contamination-aware setup." },
+      { src: "img/semiconductor/3.jpg", alt: "Operating a cleanroom processing tool", caption: "Hands-on with cleanroom equipment during process steps (loading, monitoring, and tool procedure)." },
+      { src: "img/semiconductor/4.jpg", alt: "Microscope view of a die on a circuit board", caption: "Microscope inspection of a die/package area to verify features and alignment." },
+      { src: "img/semiconductor/5.jpg", alt: "Wafer cassette in a chemical bath", caption: "Wet processing: Wafer handling in a controlled bath step (cleaning/etch workflow)." },
+      { src: "img/semiconductor/6.jpg", alt: "Wafer sample in a cleanroom under yellow lighting", caption: "Wafer sample from the semiconductor bootcamp experience (process + inspection focus)." },
+      { src: "img/semiconductor/7.jpg", alt: "Set of chip dies mounted on a grid", caption: "Chip/die samples used for inspection and learning packaging/device-level details." },
+      { src: "img/semiconductor/8.jpg", alt: "Lab setup for device probing and measurement", caption: "Device evaluation setup: microscope-based inspection and measurement workflow in the lab." }
+    ],
+
+    // placeholders (replace with your own images later)
+   research: [
+  {
+    src: "img/research/2.png", },
+  {
+    src: "img/research/3.png",
+   },
+  {
+    src: "img/research/4.png", },
+  {
+    src: "img/research/5.png", },
+  {
+    src: "img/research/sponsor.jpg", },
+  {
+    src: "img/research/6.png", },
+  {
+    src: "img/research/7.png",
+   },
+  {
+    src: "img/research/8.png", },
+  {
+    src: "img/research/9.png", },
+  {
+    src: "img/research/10.png", },
+  {
+    src: "img/research/11.png",
+   },
+  {
+    src: "img/research/12.png", },
+],
+
+
+    service: [
+      { src: "img/service/1.jpg", alt: "Engine Display", caption: "Standing alongside a Cummins engine platform, gaining hands-on exposure to engine architecture, subsystems, and real-world manufacturing considerations." },
+      { src: "img/service/2.jpg", alt: "Presentation with Leadership", caption: "Presenting internship work and technical insights alongside peers during a leadership session, including a presentation attended by CEO Jennifer Rumsey." },
+      { src: "img/service/3.jpg", alt: "Cummins experience wall", caption: "Internship experience at Cummins, connecting engineering fundamentals with real-world product development and manufacturing excellence." },
+      { src: "img/service/4.jpg", alt: "Intern project development", caption: "Developing and executing an internship project focused on engineering analysis, process understanding, and data-driven decision-making." },
+      { src: "img/service/5.jpg", alt: "Engine plant visit (Rocky Mountain)", caption: "Visiting the Rocky Mountain engine plant to observe manufacturing operations, assembly workflows, and large-scale production systems." }
+	],
+
+    test: [
+      { src: "img/test/1.jpg", alt: "Engine on test stand", caption: "Engine installed on a test stand for validation work, supporting hands-on exposure to instrumentation, setup, and real-world testing environments." },
+      { src: "img/test/2.jpg", alt: "Cummins", caption: "Internship experience at Cummins, contributing to engineering teams while gaining exposure to industry standards and professional engineering workflows." },
+     { src: "img/test/3.jpg", alt: "Engine teardown / build stage", caption: "Hands-on interaction with engine components during teardown and build stages, strengthening understanding of mechanical systems and subsystem integration." },
+    { src: "img/test/4.jpg", alt: "Engine test cell (standing in front)", caption: "Working in an engine test environment, supporting testing activities, hardware setup, and observation of engine performance under controlled conditions." }
+	]
+  };
+
+  // ====== modal elements ======
+  const modal = document.getElementById("semi-modal");
+  const closeBtn = document.getElementById("close-semi-gallery");
+  const track = document.getElementById("semi-track");
+  const captionEl = document.getElementById("semi-caption");
+  const dotsEl = document.getElementById("semi-dots");
+  const prevBtn = document.getElementById("semi-prev");
+  const nextBtn = document.getElementById("semi-next");
+  const viewport = document.getElementById("semi-viewport");
+  const backdrop = modal?.querySelector(".modal-backdrop");
+
+  // active gallery
+  let photos = galleries.semiconductor;
+  let index = 0;
+
+  function renderSlides() {
+    track.innerHTML = "";
+    dotsEl.innerHTML = "";
+
+    photos.forEach((p, i) => {
+      const img = document.createElement("img");
+      img.src = p.src;
+      img.alt = p.alt || "";
+      track.appendChild(img);
+
+      const dot = document.createElement("button");
+      dot.type = "button";
+      dot.className = "dot" + (i === 0 ? " is-active" : "");
+      dot.addEventListener("click", () => goTo(i));
+      dotsEl.appendChild(dot);
+    });
+
+    update();
+  }
+
+  function update() {
+    track.style.transform = `translateX(-${index * 100}%)`;
+    captionEl.textContent = photos[index]?.caption || "";
+
+    [...dotsEl.children].forEach((d, i) => {
+      d.classList.toggle("is-active", i === index);
+    });
+  }
+
+  function goTo(i) {
+    if (!photos || photos.length === 0) return;
+    index = (i + photos.length) % photos.length;
+    update();
+  }
+
+  function next() { goTo(index + 1); }
+  function prev() { goTo(index - 1); }
+
+  function openModal() {
+    modal.classList.add("is-open");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+    update();
+  }
+
+  function closeModal() {
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+  }
+
+  // ====== open modal from ANY button with data-gallery ======
+  document.querySelectorAll("[data-gallery]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const key = btn.dataset.gallery;
+      if (!galleries[key] || galleries[key].length === 0) return;
+
+      photos = galleries[key];
+      index = 0;
+      renderSlides();
+      openModal();
+    });
+  });
+
+  // ====== swipe support ======
+  let startX = 0;
+  let dragging = false;
+
+  viewport?.addEventListener("pointerdown", (e) => {
+    dragging = true;
+    startX = e.clientX;
+    viewport.setPointerCapture(e.pointerId);
+  });
+
+  viewport?.addEventListener("pointerup", (e) => {
+    if (!dragging) return;
+    dragging = false;
+
+    const dx = e.clientX - startX;
+    const threshold = 60;
+
+    if (dx > threshold) prev();
+    else if (dx < -threshold) next();
+  });
+
+  // ====== close + nav handlers ======
+  closeBtn?.addEventListener("click", closeModal);
+  backdrop?.addEventListener("click", closeModal);
+
+  prevBtn?.addEventListener("click", prev);
+  nextBtn?.addEventListener("click", next);
+
+  document.addEventListener("keydown", (e) => {
+    if (!modal?.classList.contains("is-open")) return;
+    if (e.key === "Escape") closeModal();
+    if (e.key === "ArrowLeft") prev();
+    if (e.key === "ArrowRight") next();
+  });
+
+  // initial render (optional)
+  renderSlides();
+</script>
+
+
+</body>
+</html>
